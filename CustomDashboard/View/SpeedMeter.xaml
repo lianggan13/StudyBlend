@@ -95,7 +95,8 @@
                                         </UIElement.RenderTransformOrigin>
                                         <UIElement.RenderTransform>
                                             <!--<RotateTransform Angle="{TemplateBinding Angle}" />-->
-                                            <RotateTransform Angle="{Binding Path=Angle, RelativeSource={RelativeSource Mode=TemplatedParent}}" />
+                                            <!--<RotateTransform Angle="{Binding Path=Angle, RelativeSource={RelativeSource Mode=TemplatedParent}}" />-->
+                                            <RotateTransform Angle="{Binding Path=Angle,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=local:SpeedMeter}}" />
                                         </UIElement.RenderTransform>
                                     </model:MeterNeedle>
                                 </Canvas>

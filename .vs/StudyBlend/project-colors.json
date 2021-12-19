@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "489a4929-7af7-428b-ab1b-35a8175512e1": {
+      "ProjectGuid": "489a4929-7af7-428b-ab1b-35a8175512e1",
+      "DisplayName": "CustomDashboard",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
